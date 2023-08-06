@@ -32,6 +32,10 @@ yarn test
 
 To view the project open `http://localhost:3000`
 
+## Node version
+
+- **18.16.1**
+
 ## Referenced documents
 
 - https://github.com/tajawal/code-challenge/blob/master/FE.md
