@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Search by repositories & users
 
-## Getting Started
+Using the API provided by Github Search API, which is documented here (https://docs.github.com/en/rest/search#about-the-search-api) i created a SPA using React and Next.js. A user should be able to search for public repositories and users.
 
-First, run the development server:
+## The following technologies
 
-```bash
+- **Next.js 13 & React 18**
+- **Tailwind CSS 3** - A utility-first CSS framework
+- **Material ui** - React components for faster and easier web development
+- **Mobx** - State management
+- **JEST** - Unit test
+
+## Getting started
+
+To install the dependencies and run the project, clone the project and run the following commands:
+
+```
+npm install
 npm run dev
-# or
+ # or
+yarn install
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run the tests, run the following commands:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm run test
+ # or
+yarn test
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To view the project open `http://localhost:3000`
 
-## Learn More
+## Referenced documents
 
-To learn more about Next.js, take a look at the following resources:
+- https://github.com/tajawal/code-challenge/blob/master/FE.md
+- https://mobx.js.org/README.html
+- https://mui.com/
+- https://tailwindcss.com/
+- https://www.npmjs.com/package/react-infinite-scroll-component
+- https://nextjs.org/docs/pages/building-your-application/optimizing/testing
+- https://www.npmjs.com/package/lodash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Unit tests and code coverage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Test Case Count: more than 8 test cases
+- Test Success Rate: 100% success rate

@@ -6,16 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.3",
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "lodash": "^4.17.21",
+    "mobx": "^6.10.0",
+    "mobx-react-lite": "^4.0.3",
     "next": "13.4.12",
+    "octokit": "^3.1.0",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "sass": "^1.64.2",
     "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "jest": "^29.6.2",
+    "jest-environment-jsdom": "^29.6.2"
   }
 }
