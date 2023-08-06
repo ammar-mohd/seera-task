@@ -1,3 +1,5 @@
+[Deployed Demo](https://seera-task-psi.vercel.app/)
+
 ## Search by repositories & users
 
 Using the API provided by Github Search API, which is documented here (https://docs.github.com/en/rest/search#about-the-search-api) i created a SPA using React and Next.js. A user should be able to search for public repositories and users.
