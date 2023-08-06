@@ -24,7 +24,6 @@ const SearchResult = observer(({ search }) => {
 
   // Function to load more results when InfiniteScroll triggers it
   const fetchMore = () => {
-    console.log("loading");
     search.fetchResponse();
   };
 
