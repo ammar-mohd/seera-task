@@ -77,18 +77,10 @@ const SearchSection = observer(({ search }) => {
         aria-label="searchType"
         className="ToggleButtonGroup"
       >
-        <ToggleButton
-          data-testid="repos-button"
-          className="ToggleButton"
-          value={"repos"}
-        >
+        <ToggleButton className="ToggleButton" value={"repos"}>
           Repositories
         </ToggleButton>
-        <ToggleButton
-          data-testid="users-button"
-          className="ToggleButton"
-          value={"users"}
-        >
+        <ToggleButton className="ToggleButton" value={"users"}>
           Users
         </ToggleButton>
       </ToggleButtonGroup>
