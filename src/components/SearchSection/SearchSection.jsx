@@ -52,7 +52,6 @@ const SearchSection = observer(({ search }) => {
     <>
       <div className="TextField" style={{ borderColor: !search.type && "red" }}>
         <TextField
-          inputProps={{ "data-testid": "search-input" }}
           color="info"
           name="search"
           className="w-[100%]"

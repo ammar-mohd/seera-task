@@ -91,41 +91,26 @@ const RepositoryCard = ({ repo }) => {
               sx={{ width: 40, height: 40 }}
             />
 
-            <Typography
-              data-testid="repo-name"
-              className="truncate"
-              variant="h5"
-            >
+            <Typography className="truncate" variant="h5">
               {repo.name}
             </Typography>
           </div>
 
           {repo.language && (
-            <Typography
-              data-testid="repo-lang"
-              variant="body2"
-              className="w-[500px] mb-3"
-            >
+            <Typography variant="body2" className="w-[500px] mb-3">
               Language: {repo.language}
             </Typography>
           )}
 
           {repo.description && (
-            <Typography
-              data-testid="repo-dec"
-              className="line-clamp-3 w-[500px] mb-3"
-              variant="body2"
-            >
+            <Typography className="line-clamp-3 w-[500px] mb-3" variant="body2">
               Created At: {formattedDate}
             </Typography>
           )}
 
           {/* Display fork users if any */}
           {repoForkUsers.length > 0 && (
-            <div
-              data-testid="repo-forks"
-              className="mt-3 absolute right-2 flex flex-col justify-center items-center"
-            >
+            <div className="mt-3 absolute right-2 flex flex-col justify-center items-center">
               <p>Users forked</p>
               {repoForkUsers.map((fork, index) =>
                 isFetchAPILoading ? (
